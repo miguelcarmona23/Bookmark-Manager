@@ -1,0 +1,196 @@
+/** bigger screen design **/
+
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    nav .flex {
+        margin: 0;
+        padding: 1rem;
+    }
+    nav .flex .logo {
+        text-align: left;
+    }
+    header>.container>.flex {
+        flex-direction: column-reverse;
+    }
+    nav .nav-links ul {
+        display: none;
+    }
+    nav .hamburger {
+        display: block;
+        float: right;
+        cursor: pointer;
+        z-index: 2;
+    }
+    nav #hamburger-menu {
+        background-color: var(--very-darkblue);
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 3rem;
+        margin-top: 6rem;
+        flex-flow: column;
+        display: none;
+        z-index: 1;
+    }
+    nav #hamburger-menu li {
+        padding: 1.5rem 0;
+        margin: 0;
+        border-top: 1px solid var(--grayish-blue);
+    }
+    nav #hamburger-menu li:nth-of-type(4) {
+        padding-top: 1.5rem;
+    }
+    nav #hamburger-menu li a {
+        font-size: 1.5rem;
+        width: 100%;
+        color: var(--grayish-blue);
+    }
+    nav #hamburger-menu a.btn.btn-orange {
+        background-color: transparent;
+        border: 2px solid var(--grayish-blue);
+        box-shadow: none;
+        display: inline-block;
+    }
+    .btn {
+        padding: .8rem .5rem;
+    }
+    .header .svg-right {
+        width: 200%;
+        top: 10%;
+        height: 200px;
+        right: 0;
+    }
+    .header .svg-right rect {
+        height: 200px;
+    }
+    .illustration ul>* {
+        padding: 1rem 0;
+    }
+    .illustration-wrapper .svg-left {
+        width: 180%;
+        bottom: 40%;
+        height: 200px;
+        left: 0;
+    }
+    .illustration-wrapper .svg-left rect {
+        height: 200px;
+    }
+    .header .flex>div:nth-of-type(1) {
+        padding: 0 1rem;
+    }
+    .header .flex>div:nth-of-type(2) {
+        margin-bottom: 5rem;
+    }
+    .buttons {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .buttons a,
+    .buttons .btn {
+        padding: .5rem;
+        margin: .5rem .2rem 0 0;
+    }
+    .features {
+        padding: 0 1rem;
+    }
+    .nav-content div:nth-of-type(2) {
+        padding-left: 0;
+    }
+    .illustration {
+        width: 100%;
+    }
+    .illustration ul {
+        flex-direction: column;
+    }
+    .illustration ul>* {
+        border-bottom: 2px solid var(--gray);
+    }
+    .nav-content .flex {
+        flex-direction: column;
+    }
+    .nav-content .flex>div:nth-of-type(1) {
+        margin-bottom: 5rem;
+    }
+    .download {
+        width: 100%;
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+    .browser-logos {
+        margin: 0;
+        flex-direction: column;
+    }
+    .browser-logos .card {
+        width: 90%;
+        margin: 0 0 4rem;
+        padding: 1rem 1rem 3rem;
+    }
+    .browser-logos .card:nth-of-type(3) {
+        margin-top: 0;
+    }
+    .faqs-wrapper {
+        padding: 2rem;
+    }
+    .question {
+        margin-bottom: 1rem;
+    }
+    .question p {
+        text-align: left;
+    }
+    .faqs-questions h4 {
+        text-align: left;
+        margin: 1rem 0;
+    }
+    .question .flex>h4:nth-of-type(1) {
+        flex: 5;
+    }
+    .contact-wrapper .contact {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    .contact-wrapper .contact .flex {
+        flex-direction: column;
+        flex: 1;
+    }
+    .contact-wrapper .contact input {
+        flex: 1;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    footer .flex,
+    footer .footer-links ul {
+        flex-direction: column;
+    }
+    footer .footer-logo {
+        margin-top: 2rem;
+    }
+    footer .footer-links a {
+        padding: 1rem 0;
+    }
+    footer .social-links a {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 5rem 0;
+    }
+    .header .svg-right {
+        bottom: 6rem;
+    }
+}
